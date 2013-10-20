@@ -29,7 +29,6 @@ html, body {
   color: #111;
 }
 
-
 .links {
   font-family: "WebSymbolsLigaRegular";
   text-rendering: optimizeLegibility;
@@ -56,8 +55,9 @@ html, body {
   color: #555;
 }
 
+
 .links a:hover {
-  color: #ff9200;
+  color: #A53C05;
 }
 
 
