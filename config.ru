@@ -11,11 +11,14 @@ run lambda { |env|
   if File.exists?(file)
     build_response(200, File.open(file, File::RDONLY))
   else
-    build_response(404, File.open("public/404.html", File::RDONLY))
+    build_response(200, File.open("public/index.html", File::RDONLY))
   end
 }
 
 def build_response(code, file)
   [ code, { 'Content-Type'  => 'text/html', 'Cache-Control' => 'public, max-age=86400'}, file ]
+end
+
+def go_home!
 end
 
