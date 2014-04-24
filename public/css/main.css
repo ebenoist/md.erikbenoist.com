@@ -1,43 +1,33 @@
-
-@font-face{
-  font-family: 'WebSymbolsLigaRegular';
-  src: url('../fonts/websymbolsligaregular.eot');
-  src: url('../fonts/websymbolsligaregular.eot?#iefix') format('embedded-opentype'),
-  url('../fonts/websymbolsligaregular.woff') format('woff'),
-  url('../fonts/websymbolsligaregular.ttf') format('truetype'),
-  url('../fonts/websymbolsligaregular.svg#WebSymbolsRegular') format('svg');
-}
-
 html, body {
   height: 100%;
   text-align: center;
 }
 
-.dead-center {
+.container {
+  margin-top: 10px;
+  display: table;
   height: 100%;
 }
 
-.dead-center,
-.dead-center + * {
-  display: inline-block;
+.center-row {
+  min-width: 960px;
+  display: table-cell;
+  height: 100%;
   vertical-align: middle;
 }
 
 .logo {
   font-family: "Josefin Slab", serif;
-  font-size: 10em;
   color: #111;
+  font-size: 10em;
 }
 
 .links {
-  font-family: "WebSymbolsLigaRegular";
-  text-rendering: optimizeLegibility;
   font-size: 2em;
   position: absolute;
-  right: 0;
-  text-decoration: none;
   margin-right: 1em;
   margin-top: .3em;
+  right: 0;
 }
 
 @media only screen and (max-device-width: 480px) {
@@ -55,9 +45,6 @@ html, body {
   color: #555;
 }
 
-
 .links a:hover {
   color: #A53C05;
 }
-
-
