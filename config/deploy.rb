@@ -35,19 +35,15 @@ namespace :deploy do
   end
 
   task :force_restart do
-    run("cd #{current_path} && bundle exec rake force_restart")
   end
 
   task :start do
-    run("cd #{current_path} && bundle exec rake start")
   end
 
   task :stop do
-    run("cd #{current_path} && bundle exec rake stop")
   end
 
   task :restart do
-    run("cd #{current_path} && bundle exec rake restart")
   end
 end
 
