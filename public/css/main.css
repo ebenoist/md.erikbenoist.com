@@ -31,7 +31,7 @@ html, body {
 
 .section-footer {
   position: relative;
-  top: 45%;
+  bottom: 5em;
 }
 .links {
   font-size: 2em;
