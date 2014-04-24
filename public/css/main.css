@@ -29,6 +29,10 @@ html, body {
   margin-left: 15em;
 }
 
+.section-footer {
+  position: relative;
+  top: 45%;
+}
 .links {
   font-size: 2em;
   position: absolute;
