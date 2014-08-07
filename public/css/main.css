@@ -1,67 +1,67 @@
-html, body {
-  height: 100%;
-  text-align: center;
+/* helo */
+
+.CodeMirror div.CodeMirror-cursor {
+  border-left: 1px solid white;
+}
+.CodeMirror {
+  font-family: "Helvetica";
+  background-color: #111;
 }
 
-.container {
-  margin-top: 10px;
-  display: table;
-  height: 100%;
+.cm-s-default {
+  color: white;
 }
 
-.center-row {
-  min-width: 960px;
-  display: table-cell;
-  height: 100%;
-  vertical-align: middle;
+.cm-s-default .cm-header {
+  font-weight: normal;
+  color: white;
 }
 
-.logo {
-  font-family: "Josefin Slab", serif;
-  color: #111;
-  font-size: 10em;
+.cm-header-1 {
+  font-size: 2em;
 }
 
-#articles {
-  height: 100%;
-  text-align: left;
-  padding-top: 10em;
-  margin-left: 15em;
+.cm-header-2 {
+  font-size: 1.5em;
 }
 
-.section-footer {
-  position: relative;
-  bottom: 3em;
+.cm-header-3 {
+  font-size: 1.2em;
 }
 
-.section-footer p {
-  padding-top: 1em;
+.cm-header-4 {
+  font-size: 1em;
+}
+
+.cm-header-4 {
   font-size: 0.8em;
 }
 
-.links {
-  font-size: 2em;
-  position: absolute;
-  margin-right: 1em;
-  margin-top: .3em;
-  right: 0;
+.cm-header-5 {
+  font-size: 0.6em;
 }
 
-@media only screen and (max-device-width: 480px) {
-  .links {
-    font-size: 4em;
-  }
+.cm-header-6 {
+  font-size: 0.4em;
 }
 
-.links a {
-  color: #444;
-  text-decoration: none;
+#editor {
+  width: 40%;
+  height: 400px;
+  float: left;
+  font-family: "Helvetica";
 }
 
-.links a:visited {
-  color: #555;
+#preview {
+  width: 40%;
+  float: right;
 }
 
-.links a:hover {
-  color: #A53C05;
+body {
+  color: white;
+  background-color: #111;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica;
 }
